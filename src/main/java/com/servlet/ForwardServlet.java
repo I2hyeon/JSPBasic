@@ -26,7 +26,7 @@ public class ForwardServlet extends HttpServlet {
 		
 		//post요청에 대한 자바코드
 		
-		String id = request.getParameter("id");
+		String id = request.getParameter("id"); // foward03의 폼값을 얻는 것
 		String pw = request.getParameter("pw");
 		
 		//id, pw는 적절하게 사용을 하고....
@@ -34,7 +34,7 @@ public class ForwardServlet extends HttpServlet {
 		
 		//id에 해당하는 유저정보를 담아서 화면에 보내겠다~
 		//다음 페이지에서 사용할 1회성 데이터를 request에 중간에 끼워넣음.
-		request.setAttribute("name", "홍길동"); 
+		request.setAttribute("nㄲㄲ", "홍길동"); 
 		
 		//~~~
 		
